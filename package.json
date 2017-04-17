@@ -1,0 +1,25 @@
+{
+  "name": "chatRoom",
+  "version": "0.0.1",
+  "description": "Real Time Chat Room",
+  "keywords": [
+    "NodeJS",
+    "AngularJS",
+    "Web Sockets",
+    "File Sharing"
+  ],
+  "author": "Ashish", 
+  "private": "false",
+  "bundleDependencies": [
+    "passport.socketio"
+  ],
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "3.2.*",
+    "formidable": "^1.0.17",
+    "fs": "0.0.2",
+    "multer": "^0.1.8",
+    "socket.io": "^1.3.5",
+    "util": "^0.10.3"
+  }
+}
